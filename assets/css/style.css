@@ -4,6 +4,12 @@ body{
     color: #777777;
 }
 
+div.box-main img {
+    float: left;
+    padding-right: 20px;
+    padding-bottom: 20px;
+ }
+
 .box-main{
     width:960px;
     background: #ffffff;
@@ -100,8 +106,30 @@ input[type=submit] {
     margin: 4px 2px;
     cursor: pointer;
   }
- img {
-    float: left;
-    padding-right: 20px;
-    padding-bottom: 20px;
+ 
+
+ .projects{
+     position: relative;
+     float: left;
+     margin: 10px;
+ }
+
+div.project img{
+    width: 110;
+    height: 150;
+}
+
+ .project-label{
+     position: absolute;
+     top: 50%;
+     width: 100%;
+     background: #4aaaa5;
+     color: #ffffff;
+ }
+
+.projects p{
+    text-align: center;
+}
+
+ .projects:hover{
  }
