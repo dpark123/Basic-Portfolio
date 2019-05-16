@@ -8,27 +8,35 @@
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
-    <header>
-        <h1>Donald Park</h1>
-        <a href="./index.html">About Me</a>
-        <a href="./portfolio.html">Portfolio</a>
-        <a href="./contact.html">Contact</a>
+    <header class="box-head">
+        <h1 class="box-name">Donald Park</h1>
+        <ul id="menu">
+            <li><a href="./contact.html">Contact</a></li>
+            <li><a href="./portfolio.html">Portfolio</a></li>
+            <li><a href="./index.html">About Me</a></li>
+        </ul>
     </header>
-    <h1>Contact</h1>
-    <form>
-        <div>
-            Name <br>
-            <input type="text" name="name" size="100" value="FirstName LastName">
-        </div>
-        <div>
-            Email <br>
+    <section class="box-main">
+        <h2>Contact</h2>
+        <form>
+            <div>
+                Name <br>
+                <input type="text" name="name" size="100" value="FirstName LastName">
+            </div>
+            <div>
+                Email <br>
             </rb><input type="text" email="email" size="100" value="handle@email.com">
-        </div>
-        <div>
-            Message <br>
-            <textarea rows = "10" cols = "100" name = "message"></textarea>
-        </div>
-        <input type="submit" value="Submit">
-    </form>
+            </div>
+            <div>
+                Message <br>
+                <textarea rows = "10" cols = "100" name = "message"></textarea>
+            </div>
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+    <footer class="box-foot">
+        coypright
+    </footer>
+
 </body>
 </html>
